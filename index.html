@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portifólio em formato landing-page" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfólio - Brenno H. Nascimento</title>
+
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/variables.css" />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/responsive.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <h1 class="logo-text"><a href="#home">Home</a></h1>
+
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#skills">Competências</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+          <div class="photo">        
+          <img
+            class="profile-photo"
+            src="./src/images/profile-photo.jpg"
+            alt="foto de perfil do autor do site Brenno Henrique do Nascimento"
+          />
+          </div>
+
+          <div class="info">
+          <h2 class="author-name">Brenno Henrique do Nascimento</h2>
+
+          <button class="more-about-author" id="info-author-button">Saiba mais</button>
+          <p id="info-author" class="author-description hidden">
+            Atualmente em formação na área de Desenvolvimento Web, com
+            conhecimentos sólidos em HTML, CSS e JavaScript. Já concluí módulos
+            fundamentais de front-end, incluindo lógica de programação, consumo
+            de APIs com Fetch e manipulação de DOM. Estou iniciando os estudos
+            em Testes Automatizados com Jest e desenvolvimento com React. Sou
+            uma pessoa dedicada, proativa e criativa, com facilidade para
+            trabalhar em equipe e resolver problemas. Busco minha primeira
+            oportunidade como desenvolvedor front-end júnior para aplicar meus
+            conhecimentos, colaborar em projetos reais e continuar evoluindo
+            técnica e profissionalmente.
+          </p>
+           <button id="hide-info-author" class="hide-info hidden">Voltar</button>
+          </div>
+      </section>
+
+      <h2 id="projects" class="projects-section">Projects</h2>
+      
+      <section class="projects">
+ 
+        <i id="go-back-arrow" class="far fa-arrow-alt-circle-left"></i>
+
+        <div class="slide project-one">
+        <div class="slider-one-image">
+          <img class="project-one-image" src="./src/images/project-one-img.png" alt="demonstração da tela inicial do projeto de buscar um usuário no GitHub">
+        </div>
+
+          <div class="project-one-info">
+          <h3 class="project-one-name">Search API GitHub</h3>
+          <p class="project-one-descrip">Este projeto foi desenvolvido com o objetivo de consolidar conhecimentos em JavaScript, consumo de APIs com Fetch e manipulação do DOM. A aplicação permite ao usuário buscar perfis na API do GitHub e, caso o usuário exista, exibe informações como: foto de perfil, nome, bio, login, número de seguidores e de seguidos, além de uma lista dos repositórios públicos com dados como watchers, estrelas, forks e linguagem utilizada. Também são exibidos os dez últimos eventos realizados pelo usuário em seus repositórios, quando disponíveis</p>
+
+          <ul class="project-one-icons">
+            <li><i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+          </ul>
+
+          <a href="https://bhn-1302.github.io/search-api-github/" target="_blank" class="project-one-link">Link do projeto</a>
+          </div>
+          </div>
+
+          <div class="slide project-two">
+        <div class="slider-two-image">
+          <img class="project-two-image" src="./src/images/project-two-img.png" alt="demonstração da tela inicial do projeto Gerador de Conselhos">
+        </div>
+
+          <div class="project-two-info">
+          <h3 class="project-two-name">Gerador de Conselhos API</h3>
+          <p class="project-two-descrip">Este projeto é mais um projeto do Frontend Mentor e é responsável por gerar um conselho aleatório para o usuário. Para que os conselhos fossem gerados, foi utilizado a API "Advice Slip JSON API". Além disso, as palavras-chave async e await foram essenciais para a construção da lógica por trás do funcionamento deste projeto.</p>
+
+          <ul class="project-two-icons">
+            <li> <i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+          </ul>
+
+          <a href="https://bhn-1302.github.io/gerador-de-conselhos/" target="_blank" class="project-two-link">Link do projeto</a>
+          </div>
+          </div>
+
+          <div class="slide project-three">
+        <div class="slider-three-image">
+          <img class="project-three-image" src="./src/images/project-three-img.png" alt="demonstração da tela inicial do projeto Formulário de Cadastro com Geração de Ticket">
+        </div>
+
+          <div class="project-three-info">
+          <h3 class="project-three-name">Formulário de Cadastro com Geração de Ticket</h3>
+          <p class="project-three-descrip">Projeto desenvolvido como desafio front-end. A aplicação permite que o usuário envie uma imagem de avatar e preencha um formulário com nome, e-mail e usuário do GitHub. Ao finalizar, um ticket com essas informações é gerado automaticamente.</p>
+
+          <ul class="project-three-icons">
+            <li> <i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+          </ul>
+
+          <a href="https://bhn-1302.github.io/state-form-ticket-generator/" target="_blank" class="project-three-link">Link do projeto</a>
+          </div>
+          </div>
+
+          <div class="slide project-four">
+        <div class="slider-four-image">
+          <img class="project-four-image" src="./src/images/project-four-img.png" alt="demonstração da tela inicial do projeto landing-page de uma agência fictícia">
+        </div>
+
+          <div class="project-four-info">
+          <h3 class="project-four-name">Agência XYZ</h3>
+          <p class="project-four-descrip">Esta landing page é o meu segundo projeto que fiz mas, desta vez, foi criada em aula com a orientação e guia do professor. O objetivo desse projeto foi praticar os conceitos aprendidos de display grid e de display flex, visando principalmente o grid para fixar melhor os seus conceitos não apenas em criações de desktop mas também para a responsividade no mobile.</p>
+
+          <ul class="project-four-icons">
+            <li> <i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3"></i></li>
+            <li><i class="fab fa-js-square"></i></li>
+          </ul>
+
+          <a href="https://bhn-1302.github.io/landing-page-agencia/" target="_blank" class="project-four-link">Link do projeto</a>
+          </div>
+          </div>
+
+           <i id="forward-arrow" class="far fa-arrow-alt-circle-right"></i>
+      </section>
+
+      <h2 id="skills" class="skills-section">Skills</h2>
+
+      <section class="skills">
+        <ul class="skills-icons">
+          <li><i class="fab fa-html5"></i></li>
+          <li><i class="fab fa-css3"></i></li>
+          <li><i class="fab fa-js-square"></i></li>
+          <li><i class="fab fa-github-square"></i></li>
+          <li><i class="fab fa-git-alt"></i></li>
+        </ul>
+      </section>
+
+      <h2 id="contact" class="contact-section">Contact</h2>
+      <section>
+        <p class="contact-message">Caso tenha se interessado pelo meu trabalho, entre em contato comigo preenchendo o formulário abaixo:</p>
+        <form class="form" target="_blank" action="https://formsubmit.co/nascimenttobrenno1302@gmail.com" method="POST">
+          <input class="input-name" type="text" name="name" placeholder="Nome Completo" required>
+          <input class="input-email" type="email" name="email" placeholder="Digite o seu email" required>
+          <input type="text" name="_honey" style="display:none">
+          <textarea cols="40" rows="10" class="textarea" name="textarea" placeholder="Digite sua mensagem" required></textarea>
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h3 class="footer-title">Entre em contato comigo e siga-me também nas redes socias:</h3>
+
+      <ul class="links">
+        <li class="link"><a href="mailto:nascimenttobrenno1302@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        <li class="link"><a href="https://www.instagram.com/dev.bhn1302?igsh=eTJ4bG13ZHp4aXBj" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="link"><a href="https://www.linkedin.com/in/brenno-henrique-nascimento" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li class="link"><a href="https://api.whatsapp.com/send?phone=5512996355942&text=Olá, sou Brenno Henrique do Nascimento!" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+      </ul>
+    </footer>
+
+    <script type="text/javascript" src="./src/scripts/index.js"></script>
+  </body>
+</html>

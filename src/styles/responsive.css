@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+    .header .header-container nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header .header-container nav ul li {
+        padding: 10px 15px;
+    }
+
+    .header .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .photo .profile-photo {
+        margin-left: 0;
+    }
+
+    .about .info {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .about .info .author-name {
+        font-size: 28px;
+    }
+
+    .about .info .author-description,
+    .projects {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 15px 20px;
+    }
+    .projects img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .skills-icons {
+        font-size: 50px;
+    }
+
+    .contact-message {
+        font-size: 15px;
+        text-align: left;
+        margin-left: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .about .photo .profile-photo {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .about .info {
+        margin: 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .about .info .author-name {
+        font-size: 24px;
+    }
+
+    .about .info .author-description {
+        font-size: 14px;
+        margin: 0;
+        padding: 10px 15px;
+    }
+
+    .more-about-author, .hide-info {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .slide {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .project-one-info,
+    .project-two-info,
+    .project-three-info,
+    .project-four-info {
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+
+    .project-one-name,
+  .project-two-name,
+  .project-three-name,
+  .project-four-name {
+    font-size: 20px;
+  }
+
+  .project-one-descrip,
+  .project-two-descrip,
+  .project-three-descrip,
+  .project-four-descrip {
+    font-size: 14px;
+  }
+
+  .project-one-link,
+  .project-two-link,
+  .project-three-link,
+  .project-four-link {
+    font-size: 16px;
+  }
+
+  .project-one-icons,
+  .project-two-icons,
+  .project-three-icons,
+  .project-four-icons {
+    font-size: 50px;
+    gap: 15px;
+  }
+
+  .fa-arrow-alt-circle-left,
+  .fa-arrow-alt-circle-right {
+    font-size: 40px;
+    margin: 10px;
+    color: orangered;
+  }
+
+
+}
+
