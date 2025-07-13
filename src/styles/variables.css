@@ -1,3 +1,10 @@
 :root {
-    --text-color-menu: #00BFFF;
+    --highlight-color-one: #00BFFF;
+    --highlight-color-two: #ff7f50;
+    --color-icons-highlight: #ff4500;
+    --titles-color: #cccccc;
+    --descriptions-color: #e0e0e0;
+    --color-default: #000;
+    --background-color-highlight: rgba(255, 255, 255, 0.05);
 }
+
